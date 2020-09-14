@@ -13,4 +13,3 @@ def binary_to_decimal(s):
     for s_i in s:
         value = value * 2 + (0 if s_i == '0' else 1)
     return value
-
