@@ -11,4 +11,7 @@ def gcd(a, b):
     b: a non-negative integer less than or equal to a
     returns a integer that is the greatest common divisor of a and b
     '''
-    return a if b == 0 else gcd(b, a % b)
+    if b == 0:
+        return a
+    else: 
+        return gcd(b, a % b)

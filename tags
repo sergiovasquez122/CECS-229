@@ -1,2 +1,11 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+binary_to_decimal	/home/sergio/CECS-229/binary_to_decimal.py	/^def binary_to_decimal(s):$/;"	f	language:Python
 gcd	/home/sergio/CECS-229/euclidean_algorithm.py	/^def gcd(a, b):$/;"	f	language:Python
+getArea	/home/sergio/CECS-229/rectangle.py	/^    def getArea(self):$/;"	m	language:Python	class:Rectangle
+getHeight	/home/sergio/CECS-229/rectangle.py	/^    def getHeight(self):$/;"	m	language:Python	class:Rectangle
+getPerimeter	/home/sergio/CECS-229/rectangle.py	/^    def getPerimeter(self):$/;"	m	language:Python	class:Rectangle
+getWidth	/home/sergio/CECS-229/rectangle.py	/^    def getWidth(self):$/;"	m	language:Python	class:Rectangle
+r1	/home/sergio/CECS-229/rectangleTest.py	/^r1 = Rectangle(4, 40)$/;"	v	language:Python
+r2	/home/sergio/CECS-229/rectangleTest.py	/^r2 = Rectangle(3.5, 35.9)$/;"	v	language:Python
+Rectangle	/home/sergio/CECS-229/rectangle.py	/^class Rectangle:$/;"	c	language:Python
+__init__	/home/sergio/CECS-229/rectangle.py	/^    def __init__(self, width = 1, height = 1):$/;"	m	language:Python	class:Rectangle

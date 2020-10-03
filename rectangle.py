@@ -1,5 +1,5 @@
 '''
-
+The purpose of this class it represent a rectangle
 @author Sergio Vasquez
 @version 08/13/2020
 @file rectangle.py

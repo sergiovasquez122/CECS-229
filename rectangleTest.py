@@ -1,5 +1,5 @@
 '''
-
+The purpose of this program is to test the rectangle class
 @author Sergio Vasquez
 @version 08/13/2020
 @file rectangleTest.py
