@@ -1,4 +1,5 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+affine_cipher_decrypt	/home/sergio/CECS-229/helpers.py	/^def affine_cipher_decrypt(message, a, k):$/;"	f	language:Python
 affine_cipher_encrypt	/home/sergio/CECS-229/helpers.py	/^def affine_cipher_encrypt(message, a, k):$/;"	f	language:Python
 binary_to_decimal	/home/sergio/CECS-229/binary_to_decimal.py	/^def binary_to_decimal(s):$/;"	f	language:Python
 caesar_cipher	/home/sergio/CECS-229/helpers.py	/^def caesar_cipher(message, k):$/;"	f	language:Python

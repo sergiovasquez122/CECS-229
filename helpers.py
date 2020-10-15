@@ -35,11 +35,26 @@ def isbn_10(str):
 def caesar_cipher(message, k):
     new_message = ""
     for letter in message:
-        new_message += ascii_uppercase[((ord(letter) - 65) + k) % len(ascii_uppercase)]
+        value = (ord(letter) - 65) + k
+        while value < 0:
+            value += len(ascii_uppercase)
+        new_message += ascii_uppercase[value % len(ascii_uppercase)]
     return new_message
 
 def affine_cipher_encrypt(message, a, k):
     new_message = ""
     for letter in message:
         new_message += ascii_uppercase[(a * ((ord(letter) - 65)) + k) % len(ascii_uppercase)]
+    return new_message
+
+def affine_cipher_decrypt(message, a, k):
+    new_message = ''
+    _, a_inverse, _ = gcdExtended(a, 26)
+    while a_inverse < 0:
+        a_inverse += 26
+    for letter in message:
+        value = (ord(letter) - 65) - k
+        while value < 0:
+            value += 26
+        new_message += ascii_uppercase[((a_inverse % 26) * (value % 26)) % 26]
     return new_message
