@@ -1,4 +1,5 @@
 from math import sqrt
+from string import ascii_uppercase
 
 def gcd(a, b):
     return a if b == 0 else gcd(b, a % b)
@@ -30,3 +31,10 @@ def isbn_10(str):
     for idx, digit in enumerate(str):
         val += (idx + 1) * int(digit, 10)
     return val % 11
+
+def caesar_cipher(message, k):
+    new_message = ""
+    for letter in message:
+        new_message += ascii_uppercase[((ord(letter) - 65) + k) %
+                                       len(ascii_uppercase)]
+    return new_message
