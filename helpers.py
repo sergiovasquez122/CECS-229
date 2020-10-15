@@ -35,6 +35,11 @@ def isbn_10(str):
 def caesar_cipher(message, k):
     new_message = ""
     for letter in message:
-        new_message += ascii_uppercase[((ord(letter) - 65) + k) %
-                                       len(ascii_uppercase)]
+        new_message += ascii_uppercase[((ord(letter) - 65) + k) % len(ascii_uppercase)]
+    return new_message
+
+def affine_cipher_encrypt(message, a, k):
+    new_message = ""
+    for letter in message:
+        new_message += ascii_uppercase[(a * ((ord(letter) - 65)) + k) % len(ascii_uppercase)]
     return new_message
