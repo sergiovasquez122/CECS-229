@@ -1,3 +1,5 @@
+from math import sqrt
+
 def gcd(a, b):
     return a if b == 0 else gcd(b, a % b)
 
@@ -9,3 +11,22 @@ def gcdExtended(a, b):
     x = y1 - ( b // a) * x1
     y = x1
     return greatest_common_divisor, x, y
+
+def prime_factors(n):
+    while n % 2 == 0:
+        print (2)
+        n = n / 2
+
+    for i in range(3, int(sqrt(n)) + 1, 2):
+        while n % i == 0:
+            print (i)
+            n = n / i
+
+    if n > 2:
+        print(n)
+
+def isbn_10(str):
+    val = 0
+    for idx, digit in enumerate(str):
+        val += (idx + 1) * int(digit, 10)
+    return val % 11

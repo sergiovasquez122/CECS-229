@@ -7,6 +7,8 @@ getArea	/home/sergio/CECS-229/rectangle.py	/^    def getArea(self):$/;"	m	langua
 getHeight	/home/sergio/CECS-229/rectangle.py	/^    def getHeight(self):$/;"	m	language:Python	class:Rectangle
 getPerimeter	/home/sergio/CECS-229/rectangle.py	/^    def getPerimeter(self):$/;"	m	language:Python	class:Rectangle
 getWidth	/home/sergio/CECS-229/rectangle.py	/^    def getWidth(self):$/;"	m	language:Python	class:Rectangle
+isbn_10	/home/sergio/CECS-229/helpers.py	/^def isbn_10(str):$/;"	f	language:Python
+prime_factors	/home/sergio/CECS-229/helpers.py	/^def prime_factors(n):$/;"	f	language:Python
 r1	/home/sergio/CECS-229/rectangleTest.py	/^r1 = Rectangle(4, 40)$/;"	v	language:Python
 r2	/home/sergio/CECS-229/rectangleTest.py	/^r2 = Rectangle(3.5, 35.9)$/;"	v	language:Python
 Rectangle	/home/sergio/CECS-229/rectangle.py	/^class Rectangle:$/;"	c	language:Python
