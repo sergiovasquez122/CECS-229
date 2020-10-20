@@ -15,4 +15,5 @@ prime_factors	/home/sergio/CECS-229/helpers.py	/^def prime_factors(n):$/;"	f	lan
 r1	/home/sergio/CECS-229/rectangleTest.py	/^r1 = Rectangle(4, 40)$/;"	v	language:Python
 r2	/home/sergio/CECS-229/rectangleTest.py	/^r2 = Rectangle(3.5, 35.9)$/;"	v	language:Python
 Rectangle	/home/sergio/CECS-229/rectangle.py	/^class Rectangle:$/;"	c	language:Python
+sieve	/home/sergio/CECS-229/sieve_of_eratosthenes.py	/^def sieve(n):$/;"	f	language:Python
 __init__	/home/sergio/CECS-229/rectangle.py	/^    def __init__(self, width = 1, height = 1):$/;"	m	language:Python	class:Rectangle
