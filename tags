@@ -1,6 +1,7 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 affine_cipher_decrypt	/home/sergio/CECS-229/helpers.py	/^def affine_cipher_decrypt(message, a, k):$/;"	f	language:Python
 affine_cipher_encrypt	/home/sergio/CECS-229/helpers.py	/^def affine_cipher_encrypt(message, a, k):$/;"	f	language:Python
+all_positive_divisors	/home/sergio/CECS-229/prime_factorization.py	/^def all_positive_divisors(n):$/;"	f	language:Python
 binary_to_decimal	/home/sergio/CECS-229/binary_to_decimal.py	/^def binary_to_decimal(s):$/;"	f	language:Python
 caesar_cipher	/home/sergio/CECS-229/helpers.py	/^def caesar_cipher(message, k):$/;"	f	language:Python
 gcd	/home/sergio/CECS-229/euclidean_algorithm.py	/^def gcd(a, b):$/;"	f	language:Python
@@ -12,6 +13,7 @@ getPerimeter	/home/sergio/CECS-229/rectangle.py	/^    def getPerimeter(self):$/;
 getWidth	/home/sergio/CECS-229/rectangle.py	/^    def getWidth(self):$/;"	m	language:Python	class:Rectangle
 isbn_10	/home/sergio/CECS-229/helpers.py	/^def isbn_10(str):$/;"	f	language:Python
 prime_factors	/home/sergio/CECS-229/helpers.py	/^def prime_factors(n):$/;"	f	language:Python
+prime_factors	/home/sergio/CECS-229/prime_factorization.py	/^def prime_factors(n):$/;"	f	language:Python
 r1	/home/sergio/CECS-229/rectangleTest.py	/^r1 = Rectangle(4, 40)$/;"	v	language:Python
 r2	/home/sergio/CECS-229/rectangleTest.py	/^r2 = Rectangle(3.5, 35.9)$/;"	v	language:Python
 Rectangle	/home/sergio/CECS-229/rectangle.py	/^class Rectangle:$/;"	c	language:Python
